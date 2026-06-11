@@ -1,10 +1,11 @@
-name: Amad Arshad Python CI
+name: Scenario 1 Python CI
 on: [push]
 jobs:
   run-app:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
       - name: Execute Script
         run: echo "Hello, Amad Arshad! Welcome to AIDI 2004."
         

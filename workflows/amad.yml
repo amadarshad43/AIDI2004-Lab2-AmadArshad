@@ -1,7 +1,5 @@
 name: Amad Arshad Python CI
-
 on: [push]
-
 jobs:
   run-app:
     runs-on: ubuntu-latest
